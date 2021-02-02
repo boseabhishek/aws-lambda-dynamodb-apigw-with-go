@@ -39,8 +39,8 @@ func Handler(request Request) (Response, error) {
 	}, nil
 }
 
-// he main() function we call lambda.Start() and
-// pass in the show function as the lambda handler.
+// in the main() function we call lambda.Start() and
+// pass in the `Handler` function as the lambda handler.
 func main() {
 	lambda.Start(Handler)
 }
