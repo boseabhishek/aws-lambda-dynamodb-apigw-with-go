@@ -28,6 +28,11 @@ goto the AWS console and navigate to the lambda function - `my-go-function` and 
 Ref: https://docs.aws.amazon.com/lambda/latest/dg/go-image.html
 
 
+
+## Deploy Go Lambda functions with AWS CLI
+Ref: https://www.alexedwards.net/blog/serverless-api-with-go-and-aws-lambda
+
+
 ## Testing
 Goto the `Test` button on the top-right corner and craete a new test config.
 
@@ -40,3 +45,8 @@ Provide some event name like `test1` and use the below test input JSON
 ```
 Once done, press the test button to see the test as below:
 ![alt text](lambda-test-result.png "aws go lambda test result")
+
+## Further reading
+
+- AWS Lambda, AWS DynamoDB, IAM Role, AWS CLI and GO
+https://www.alexedwards.net/blog/serverless-api-with-go-and-aws-lambda
