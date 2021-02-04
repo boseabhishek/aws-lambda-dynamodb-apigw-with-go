@@ -37,7 +37,7 @@ aws dynamodb create-table \
 - a table name
 - a primary key attribute name and it's type
 
-Every other fields with value (data) could be added later with their values like below:
+Every other `ITEMS` with value and type could be added later with their values like below:
 
 ```
 $ aws dynamodb put-item \
